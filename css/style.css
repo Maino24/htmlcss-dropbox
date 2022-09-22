@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    display: flex;   
+}
+
+li{
+    list-style: none;
+}
+
+.header-sinistra{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+}
+
+.header-destra{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 30%;
+}
