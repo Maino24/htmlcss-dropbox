@@ -5,13 +5,20 @@
 }
 
 header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    
+    
 }
 
 nav{
+    
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    width: 100px;
 }
 
 ul{
@@ -20,16 +27,33 @@ ul{
 
 li{
     list-style: none;
+    padding: 10px;
 }
 
 .header-sinistra{
     display: flex;
     justify-content: space-between;
-    flex-basis: 60%;
+    flex-basis: 30%;
 }
 
 .header-destra{
     display: flex;
     justify-content: space-between;
     flex-basis: 30%;
+}
+
+.bottone-inizia{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.header-due{
+    background-color: aqua;
 }
