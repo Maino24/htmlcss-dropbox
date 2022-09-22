@@ -57,3 +57,41 @@ li{
 .header-due{
     background-color: aqua;
 }
+
+.container-colonne-header{
+    display: flex;
+}
+
+.colonna-sinistra{
+    flex-basis: 30%;
+}
+
+.colonna-destra{
+    
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main{
+    margin-top: 30px;
+}
+
+#input{
+    display: flex;
+    padding-top: 20px;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.colonna-uno{
+    
+}
