@@ -131,13 +131,16 @@ main{
     vertical-align: middle;
 }
 
+.padding-colonna{
+    margin: 30px;
+}
+
 .prima-section-colonna{
-    padding: 30px;
     line-height: 30px;
 }
 
 .seconda-section-colonna{
-    margin-left: +1.2rem;
+    margin-left: -0.8rem;
 }
 
 .bottone-gratis{
@@ -145,9 +148,17 @@ main{
     padding: 10px;
     color: white;
     border: none;
-    margin-left: 30px;
     margin-top: 30px;
     line-height: 30px;
 }
 
-.link 
+.link{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.check{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
