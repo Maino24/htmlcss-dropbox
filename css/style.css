@@ -220,13 +220,29 @@ main{
     margin-top: 50px;
 }
 
-.tabella-businnes{
+.tabella-businnes-prima-riga{
     display: flex;
     width: 100%;
+    margin-top: 40px;
+}
+
+.tabella-businnes-seconda-riga{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .tabella-uno-businnes{
     width: calc(100% / 3);
     border: 1px solid black;
-    height: 400px;
+    padding: 10px;
+}
+
+
+.img-tabella-b{
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
 }
