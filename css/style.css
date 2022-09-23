@@ -49,6 +49,10 @@ li{
     border: none;
 }
 
+h1{
+    font-size: 3.4rem;
+}
+
 .container{
     width: 60%;
     margin: auto;
@@ -80,6 +84,7 @@ li{
 main{
     margin-top: 30px;
 }
+
 
 #input{
     display: flex;
