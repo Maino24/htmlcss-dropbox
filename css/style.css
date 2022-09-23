@@ -206,10 +206,11 @@ main{
     justify-content: space-between;
 }
 
-.colonna-destra-partner{
-    flex-basis: 70%;
+.img-partner{
+    width: 600px;
+    padding-right: 20px;
 }
 
-.colonna-sinistra-partner{
-    flex-basis: 28%;
+.titolo-paragrafo-partner{
+    padding-bottom: 20px;
 }
