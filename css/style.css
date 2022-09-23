@@ -118,6 +118,18 @@ main{
 }
 
 .icona-colonna{
-    height: 100px;
-    border-bottom: 1px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    text-align: center;  
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+.parola-icona{
+    vertical-align: middle;
+}
+
+.fa-solid{
+    vertical-align: middle;
+}
+
