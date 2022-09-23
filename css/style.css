@@ -64,10 +64,6 @@ h1{
     margin: auto;
 }
 
-.header-due{
-   
-}
-
 .container-colonne-header{
     display: flex;
     width: 100%;
@@ -77,6 +73,10 @@ h1{
 .colonna-sinistra{
     flex-basis: 30%;
     border: solid black 1px;
+}
+
+.sottotitolo{
+    margin-bottom: 20px;
 }
 
 .colonna-destra{
@@ -91,6 +91,9 @@ main{
     margin-top: 30px;
 }
 
+.prima-section{
+    margin-top: 50px;
+}
 
 #input{
     display: flex;
