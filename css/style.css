@@ -105,14 +105,14 @@ main{
 
 .card{
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    border: solid black 1px;
     margin-top: 30px;
 }
 
 .colonna-uno{
     border: solid black 1px;
-    width: calc(100% / 3);
+    width: 30%;
 }
 
 .icona-colonna{
@@ -161,3 +161,32 @@ main{
     padding-bottom: 20px;
 }
 
+.enterprise{
+    border: solid  black 1px;
+    margin-top: 40px;
+}
+
+.contenitore-icona-enterprise{
+    display: flex;
+    border: solid black 1px;
+    width: 100%;
+}
+
+
+/*height: 30px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    */
+
+.titolo-bottone-enterprise{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.paragrafo-enterprise{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
