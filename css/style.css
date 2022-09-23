@@ -184,9 +184,22 @@ main{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contenitore-paragrafo-enterprise{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .paragrafo-enterprise{
     padding-top: 30px;
     padding-bottom: 20px;
+    
+}
+
+.tabella-partner{
+    display: flex;
+    width: 100%;
 }
