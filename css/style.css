@@ -21,7 +21,7 @@ nav{
     width: 100px;
 }
 
-ul{
+.lista-header{
     display: flex;   
 }
 
@@ -107,14 +107,12 @@ main{
     display: flex;
     width: 100%;
     border: solid black 1px;
-    height: 400px;
     margin-top: 30px;
 }
 
 .colonna-uno{
     border: solid black 1px;
     width: calc(100% / 3);
-    height: 400px;
 }
 
 .icona-colonna{
@@ -133,3 +131,23 @@ main{
     vertical-align: middle;
 }
 
+.prima-section-colonna{
+    padding: 30px;
+    line-height: 30px;
+}
+
+.seconda-section-colonna{
+    margin-left: +1.2rem;
+}
+
+.bottone-gratis{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.link 
