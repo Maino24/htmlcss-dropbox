@@ -199,7 +199,17 @@ main{
     
 }
 
-.tabella-partner{
+.partner{
     display: flex;
     width: 100%;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.colonna-destra-partner{
+    flex-basis: 70%;
+}
+
+.colonna-sinistra-partner{
+    flex-basis: 28%;
 }
