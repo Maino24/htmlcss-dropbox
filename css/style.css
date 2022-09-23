@@ -51,6 +51,12 @@ li{
 
 h1{
     font-size: 3.4rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.background{
+    background-color: aqua;
 }
 
 .container{
@@ -59,7 +65,7 @@ h1{
 }
 
 .header-due{
-    background-color: aqua;
+   
 }
 
 .container-colonne-header{
