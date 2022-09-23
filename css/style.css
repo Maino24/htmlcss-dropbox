@@ -215,3 +215,18 @@ main{
 .titolo-paragrafo-partner{
     padding-bottom: 20px;
 }
+
+.dropbox-businnes{
+    margin-top: 50px;
+}
+
+.tabella-businnes{
+    display: flex;
+    width: 100%;
+}
+
+.tabella-uno-businnes{
+    width: calc(100% / 3);
+    border: 1px solid black;
+    height: 400px;
+}
