@@ -245,3 +245,20 @@ main{
     height: 200px;
     text-align: center;
 }
+
+.section-quadrati{
+    display: flex;
+    width: 100%;
+}
+
+.colonna-quadrati{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: aqua;
+}
+
+.colonne-due{
+    width: 50%;
+    
+    
+}
