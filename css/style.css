@@ -251,14 +251,37 @@ main{
     width: 100%;
 }
 
-.colonna-quadrati{
+.colonna{
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: aqua;
+    border: 1px solid black;
 }
 
-.colonne-due{
+
+
+.quadrato-sinistra{
     width: 50%;
-    
-    
+    height: 50%;
+    border: 1px solid black;
+}
+
+.quadrato-destra{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.sotto{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#img-centrale{
+    width: 350px;
+    padding: 30px;
+}
+
+#paragrafo-centrale{
+    padding: 30px;
 }
