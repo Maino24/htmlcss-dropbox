@@ -308,3 +308,21 @@ padding: 50px;
     padding: 20px;
     border-bottom: 1px solid grey;
 }
+
+footer{
+    background-color: black;
+}
+
+
+.tabella-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colonna-footer{
+    width: calc(100% / 5);
+    
+    color: white;
+
+}
