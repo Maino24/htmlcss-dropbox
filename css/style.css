@@ -285,3 +285,26 @@ main{
 #paragrafo-centrale{
     padding: 30px;
 }
+
+
+.container-titolo{
+    background-color: lightskyblue;
+}
+
+
+.titolo-bottone{
+    justify-content: space-between;
+    display: flex;
+padding: 50px;
+}
+
+.bottone-businnes{
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+.domande-frequenti{
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
