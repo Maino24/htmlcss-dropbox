@@ -318,9 +318,44 @@ footer{
     width: 80%;
     margin: auto;
     display: flex;
+    border-bottom: solid gray 1px;
+    border: 100px;
 }
 
 .colonna-footer{
     width: calc(100% / 5);
     color: white;
+    padding-bottom: 20px;
+}
+
+.titolo-footer{
+   padding-top: 40px;
+   padding-bottom: 20px;
+   
+}
+
+.li-footer{
+    padding-bottom: 20px;
+}
+
+.lingua{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+select{
+    color: white;
+}
+
+option{
+    background-color: black;
+}
+
+#lingua{
+    background-color: transparent;
+    border: none;
 }
