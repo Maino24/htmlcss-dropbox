@@ -82,6 +82,7 @@ h1{
 .colonna-destra{
     border: solid black 1px;
     width: 68% ;
+    height: 500px;
     background-image: url(../img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -92,19 +93,23 @@ main{
 }
 
 .prima-section{
-    margin-top: 50px;
+    padding-top: 80px;
 }
+
+/*.titolo-input{
+    font-family: "Times New Roman";
+}*/
 
 #input{
     display: flex;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     width: 40%;
-    
     font-size: 15px;
 }
 
 .uno{
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .cerchio{
@@ -113,6 +118,7 @@ main{
     padding: 5px;
     margin-right: 5px;
 }
+
 .cerchio-due{
     border-radius: 50%;
     border: 2px solid grey;
