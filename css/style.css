@@ -315,14 +315,12 @@ footer{
 
 
 .tabella-footer{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
 }
 
 .colonna-footer{
     width: calc(100% / 5);
-    
     color: white;
-
 }
