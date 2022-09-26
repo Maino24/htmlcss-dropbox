@@ -243,6 +243,7 @@ main{
 
 .titolo-paragrafo-partner{
     padding-top: 60px;
+    font-size: 1.8rem;
 }
 
 .paragrafo-partner{
@@ -354,12 +355,16 @@ main{
     display: flex;
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    border: 1px solid black;
     flex-wrap: wrap;
-    
+}
+
+.colonna-c{
+    background-color: #F5F5F5;
 }
 
 .quadrato-sinistra{
+    display: flex;
+    margin: auto;
     width: 50%;
     height: 50%;
     background-color: #A2D39B;
@@ -367,6 +372,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
+    border: 10px solid #D1E9CD;
 }
 
 .quadrato-destra{
@@ -454,31 +460,31 @@ main{
     padding: 30px;
 }
 
-
-.container-titolo{
-    background-color: #B4D0E7;
-}
-
-
-.titolo-bottone{
+.contenitore-gratis{
+    
     display: flex;
-    width: 60%;
     margin: auto;
+    width: 60%;
     justify-content: space-between;
-    display: flex;
     padding: 50px;
 }
 
+
+.container-titolo{
+    background-color: #B4D0E7;
+}    
+
 .titolo-azienda{
-    width: 40%;
+    width: 70%;
+    color: #78496B;
+    font-size: 2.0rem;
 }
 
 .bottone-businnes{
     background-color: white;
     border: none;
     padding: 10px;
-    
-    
+  
 }
 
 .domande-frequenti{
