@@ -126,6 +126,10 @@ main{
     margin-right: 5px;
 }
 
+.icon-uno{
+    padding-top: 20px;
+}
+
 .card{
     display: flex;
     justify-content: space-between;
@@ -163,9 +167,9 @@ main{
 }
 
 
-
 .bottone-gratis{
     background-color: blue;
+    width: 100%;
     padding: 10px;
     color: white;
     border: none;
@@ -176,7 +180,6 @@ main{
 .link{
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 .check{
@@ -191,8 +194,12 @@ main{
 
 .contenitore-icona-enterprise{
     display: flex;
+    margin: auto;
     border: solid black 1px;
     width: 100%;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
