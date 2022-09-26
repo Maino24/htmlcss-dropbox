@@ -318,8 +318,9 @@ footer{
     width: 80%;
     margin: auto;
     display: flex;
-    border-bottom: solid gray 1px;
-    border: 100px;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+
 }
 
 .colonna-footer{
