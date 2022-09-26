@@ -195,7 +195,7 @@ main{
 .contenitore-icona-enterprise{
     display: flex;
     margin: auto;
-    border: solid black 1px;
+    border-bottom: solid black 1px;
     width: 100%;
     justify-content: center;
     padding-top: 5px;
@@ -289,6 +289,56 @@ main{
     background-repeat: no-repeat;
     height: 200px;
     text-align: center;
+}
+
+.img-tabella-b1{
+    background-image: url(../img/business-feature-send-files-it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+
+.img-tabella-b2{
+    background-image: url(../img/business-feature-coordinate-it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+
+.img-tabella-b3{
+    background-image: url(../img/business-feature-integrations-it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+
+.img-tabella-b4{
+    background-image: url(../img/business-feature-multi-device.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+
+.img-tabella-b5{
+    background-image: url(../img/business-feature-security.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+.tempo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 .section-quadrati{
