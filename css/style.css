@@ -87,6 +87,7 @@ h1{
 
 .colonna-sinistra{
     flex-basis: 30%;
+    position: relative;
 }
 
 .sottotitolo{
@@ -96,6 +97,8 @@ h1{
 .fa-down-long{
     padding-top: 50px;
     font-size: 1.8rem;
+    position: absolute;
+    top: 250px;
 }
 
 .colonna-destra{
