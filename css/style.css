@@ -484,17 +484,27 @@ main{
     background-color: white;
     border: none;
     padding: 10px;
-  
+}
+
+.bottone-businnes:hover{
+    color: rgb(94, 94, 94);
+}
+
+.df{
+    margin-top: 70px;
 }
 
 .domande-frequenti{
     display: flex;
+    margin: auto;
     padding: 20px;
     border-bottom: 1px solid grey;
+    justify-content: space-between;
 }
 
 footer{
     background-color: black;
+    margin-top: 100px;
 }
 
 
