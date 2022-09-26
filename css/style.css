@@ -273,14 +273,16 @@ main{
 
 .tabella-uno-businnes{
     width: calc(100% / 3);
-    border: 1px solid black;
     padding: 10px;
 }
 
 
 .titolo-cinque{
+    width: 60%;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 2.4rem;
+    margin-top: 100px;
 }
 
 .img-tabella-b{
