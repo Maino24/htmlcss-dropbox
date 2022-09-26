@@ -249,15 +249,17 @@ main{
 .section-quadrati{
     display: flex;
     width: 100%;
+    
 }
 
 .colonna{
+    display: flex;
     width: calc(100% / 3);
     height: calc(100vw / 3);
     border: 1px solid black;
+    flex-wrap: wrap;
+    
 }
-
-
 
 .quadrato-sinistra{
     width: 50%;
@@ -266,6 +268,18 @@ main{
 }
 
 .quadrato-destra{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.quadrato-sinistra-sotto{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.quadrato-destra-sotto{
     width: 50%;
     height: 50%;
     border: 1px solid black;
@@ -305,6 +319,7 @@ padding: 50px;
 }
 
 .domande-frequenti{
+    display: flex;
     padding: 20px;
     border-bottom: 1px solid grey;
 }
