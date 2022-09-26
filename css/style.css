@@ -118,10 +118,6 @@ main{
     padding-top: 80px;
 }
 
-/*.titolo-input{
-    font-family: "Times New Roman";
-}*/
-
 #input{
     display: flex;
     padding-top: 40px;
@@ -160,13 +156,13 @@ main{
 }
 
 .colonna-uno{
-    border: solid black 1px;
+    border: solid grey 1px;
     width: 30%;
 }
 
 .icona-colonna{
     height: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     text-align: center;  
     padding-top: 5px;
     padding-bottom: 5px;
@@ -211,27 +207,23 @@ main{
 }
 
 .enterprise{
-    border: solid  black 1px;
+    border: solid  grey 1px;
     margin-top: 40px;
 }
 
 .contenitore-icona-enterprise{
     display: flex;
     margin: auto;
-    border-bottom: solid black 1px;
+    border-bottom: solid gray 1px;
     width: 100%;
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-
-/*height: 30px;
-    border-bottom: 1px solid black;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    */
+.bottone-enterprise:hover{
+    color: grey;
+}
 
 .titolo-bottone-enterprise{
     display: flex;
