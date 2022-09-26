@@ -80,12 +80,12 @@ h1{
 }
 
 .colonna-destra{
-    border: solid black 1px;
-    width: 68% ;
-    height: 500px;
-    background-image: url(../img/jumbo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: 68%;
+}
+
+.img-destra{
+    width: 125%
+    
 }
 
 main{
@@ -148,6 +148,7 @@ main{
     text-align: center;  
     padding-top: 5px;
     padding-bottom: 5px;
+    
 }
 
 .parola-icona{
@@ -461,7 +462,6 @@ main{
 }
 
 .contenitore-gratis{
-    
     display: flex;
     margin: auto;
     width: 60%;
@@ -501,6 +501,15 @@ main{
     border-bottom: 1px solid grey;
     justify-content: space-between;
 }
+/*
+.arrow:hover {
+    display: contents;
+    display: block;
+}
+
+.p{
+    display: block;
+}*/
 
 footer{
     background-color: black;
@@ -526,7 +535,7 @@ footer{
 .titolo-footer{
    padding-top: 40px;
    padding-bottom: 20px;
-   
+   font-size: 1.5rem;
 }
 
 .li-footer{
@@ -539,7 +548,11 @@ footer{
     margin: auto;
     color: white;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+}
+
+.fa-earth-europe{
+    padding-right: 10px;
 }
 
 select{
