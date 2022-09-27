@@ -522,29 +522,21 @@ main{
     border-bottom: 1px solid grey;
     justify-content: space-between;
 }
-/*
+
 .arrow:hover {
     display: contents;
-    display: block;
 }
-
-.p{
-    display: block;
-}*/
 
 footer{
     background-color: black;
     margin-top: 100px;
 }
 
-
 .tabella-footer{
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid grey;
-
 }
 
 .colonna-footer{
