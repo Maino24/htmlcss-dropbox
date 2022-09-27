@@ -110,8 +110,7 @@ h1{
 }
 
 .img-destra{
-    width: 125%
-    
+    width: 125%;
 }
 
 main{
@@ -273,8 +272,7 @@ main{
 
 .bottone-enterprise{
     background-color: white;
-    padding: 10px
-    ;
+    padding: 10px;
 }
 .dropbox-businnes{
     margin-top: 50px;
@@ -478,6 +476,10 @@ main{
 
 #paragrafo-centrale{
     padding: 30px;
+}
+
+#firma{
+    padding-left: 30px;
 }
 
 .contenitore-gratis{
